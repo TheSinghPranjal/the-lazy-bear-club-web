@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+:root {
+  --brand-green: #2d4a3e;
+  --brand-green-dark: #1a2e26;
+  --brand-accent: #c47b4a;
+  --brand-gold: #d4a574;
+  --brand-surface: #f7f4ef;
+  --brand-text: #1a2421;
+  --brand-muted: #5c6b66;
+}
+
+@theme inline {
+  --color-brand-green: var(--brand-green);
+  --color-brand-green-dark: var(--brand-green-dark);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-text: var(--brand-text);
+  --color-brand-muted: var(--brand-muted);
+  --font-sans: var(--font-inter);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--brand-surface);
+  color: var(--brand-text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand-green) 25%, transparent);
+  color: var(--brand-text);
+}
+
+/* Subtle grain texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Soft bear/club motif — large muted circle in corners */
+body::after {
+  content: "";
+  position: fixed;
+  width: 480px;
+  height: 480px;
+  right: -160px;
+  top: -120px;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--brand-gold) 18%, transparent), transparent 70%);
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+.legal-content a {
+  color: var(--brand-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-content a:hover {
+  color: var(--brand-green-dark);
+}
+
+.legal-content strong {
+  color: var(--brand-text);
+  font-weight: 600;
+}
