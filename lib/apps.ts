@@ -183,7 +183,7 @@ export const apps: StudioApp[] = [
     name: "Bollywood Hollywood",
     tagline: "Guess the film — Bollywood and Hollywood, one game.",
     description:
-      "A timed movie-guessing game that mixes Bollywood and Hollywood titles. Fill in the name, use hints when you stall, and keep the lives row going. Currently in review on Google Play.",
+      "A timed movie-guessing game that mixes Bollywood and Hollywood titles. Fill in the name, use hints when you stall, and keep the lives row going.",
     features: [
       "Bollywood and Hollywood titles in one quiz",
       "Timed rounds with letter blanks",
@@ -192,7 +192,9 @@ export const apps: StudioApp[] = [
     ],
     category: "Trivia",
     packageName: "com.lazy_bear_club.bollywood_hollywood",
-    status: "in_review",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.lazy_bear_club.bollywood_hollywood",
+    status: "live",
     featured: false,
     icon: "/apps/bollywood-hollywood/icon.png",
     screenshots: [
@@ -221,7 +223,7 @@ export const apps: StudioApp[] = [
     packageName: "com.lazy_bear_club.dawa_saathi",
     status: "draft",
     featured: false,
-    icon: "/apps/dawa-saathi/icon.jpg",
+    icon: "/apps/dawa-saathi/icon.png",
     screenshots: [
       "/apps/dawa-saathi/screenshot-1.jpg",
       "/apps/dawa-saathi/screenshot-2.jpg",
@@ -235,7 +237,7 @@ export const apps: StudioApp[] = [
     name: "Guess Bollywood",
     tagline: "Guess the Bollywood movie from the clues.",
     description:
-      "A Bollywood title-guessing game for people who grew up with Indian cinema — or who simply want to test how many films they still remember. In development; not yet on Google Play.",
+      "A Bollywood title-guessing game for people who grew up with Indian cinema — or who simply want to test how many films they still remember.",
     features: [
       "Guess Bollywood titles from clues",
       "Casual rounds built around film memory",
@@ -243,7 +245,9 @@ export const apps: StudioApp[] = [
     ],
     category: "Trivia",
     packageName: "com.lazy_bear_club.guess_bollywood",
-    status: "draft",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.lazy_bear_club.guess_bollywood",
+    status: "live",
     featured: false,
     icon: "/apps/guess-bollywood/icon.png",
     screenshots: [

@@ -10,7 +10,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: `How ${STUDIO_NAME} handles information on this website, and how each app publishes its own privacy details.`,
+  description: `${STUDIO_NAME} does not collect user data. Our apps are local UI experiences with no accounts or sign-in.`,
 };
 
 const LAST_UPDATED = "August 28, 2026";
@@ -19,38 +19,51 @@ export default function PrivacyPage() {
   return (
     <LegalPageLayout title="Privacy Policy" lastUpdated={LAST_UPDATED}>
       <p>
-        This policy covers the {STUDIO_NAME} website. Each mobile app has its own privacy
-        summary — linked below. We do not sell personal information.
+        {STUDIO_NAME} does not collect user data. We do not sell personal information. This
+        policy covers this website and our Google Play apps.
       </p>
 
       <LegalSection id="overview" title="1. Overview">
         <p>
           {STUDIO_NAME} (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates this
-          studio website and publishes mobile applications on Google Play. This page explains
-          what we collect from website visitors. App-specific collection is described in each
-          app&apos;s privacy page and in the Google Play Data safety form.
+          studio website and publishes mobile applications on Google Play. Our apps are
+          complete on-device UI experiences. They do not use accounts, single sign-on (SSO),
+          or cloud login.
         </p>
       </LegalSection>
 
-      <LegalSection id="data" title="2. Data we collect">
-        <p>On this website we may collect:</p>
+      <LegalSection id="website" title="2. This website">
+        <p>
+          You can browse this site without creating an account. We do not run a contact form
+          that stores submissions on our servers. We do not use analytics on this website.
+        </p>
+        <p>
+          If you email us, whatever you include in that message is sent through your email
+          provider to {CONTACT.email}. We use it only to reply.
+        </p>
+      </LegalSection>
+
+      <LegalSection id="apps" title="3. Our apps — no data collection">
+        <p>
+          The following apps do <strong>not</strong> collect user information. They do not
+          require sign-in, do not use SSO, and do not send personal data to our servers.
+          Gameplay and settings stay on the device.
+        </p>
         <LegalList
           items={[
-            "Information you send us by email (name, address, and whatever you include in the message)",
-            "Standard server or hosting logs (IP address, browser type, pages requested) if our host records them",
-            "Optional analytics, only if we enable a privacy-respecting analytics tool in the future — we will update this page if that happens",
+            "Abode Home",
+            "Guess Hollywood",
+            "Guess Bollywood",
+            "Bollywood Hollywood",
+            "Puzzle Match",
+            "Tiny Think",
+            "Dawa Saathi",
           ]}
         />
         <p>
-          We do not require an account to browse this site. We do not run a contact form that
-          stores submissions on our servers.
-        </p>
-      </LegalSection>
-
-      <LegalSection id="apps" title="3. Our apps">
-        <p>
-          Each app&apos;s data practices are documented separately. Live titles on Google Play
-          also declare collection in the Play Console Data safety section.
+          This matches the Google Play Data safety declarations for live titles (no data
+          collected, no data shared with third parties). Each app also has a short privacy
+          page:
         </p>
         <ul className="list-disc space-y-2 pl-5">
           {catalogApps.map((app) => (
@@ -64,8 +77,9 @@ export default function PrivacyPage() {
       <LegalSection id="children" title="4. Children's privacy">
         <p>
           This website is not directed at children under 13. Tiny Think and Bao and Family are
-          products for young children; each has its own privacy page. We do not knowingly
-          collect personal information from children through this studio website.
+          products for young children. Those apps do not collect personal information from
+          children. We do not knowingly collect personal information from children through
+          this website.
         </p>
       </LegalSection>
 

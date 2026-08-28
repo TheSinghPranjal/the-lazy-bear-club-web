@@ -2,7 +2,7 @@ export const STUDIO_NAME = "The Lazy Bear Club";
 export const TAGLINE = "We build apps people love to play — and tools people love to use.";
 
 export const CONTACT = {
-  email: "adobehomespace@gmail.com",
+  email: "pranjalsingh10061997@gmail.com",
   phone: "+91 6363957079",
   phoneTel: "tel:+916363957079",
   address: "Bangalore, India",
