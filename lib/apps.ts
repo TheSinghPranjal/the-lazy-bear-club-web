@@ -179,6 +179,31 @@ export const apps: StudioApp[] = [
     accentColor: "#6EC8FF",
   },
   {
+    id: "bao-and-friends",
+    name: "Bao and Friends",
+    tagline: "Learn, play, and grow with Bao and friends.",
+    description:
+      "Bao and Friends is a children’s play world around Bao, a young panda, and the friends who share the garden, cottage, and everyday adventures. Warm, readable play for little ones — not a classroom replacement.",
+    features: [
+      "Meet Bao in a sunny home-and-garden world",
+      "Play everyday activities with Bao’s friends",
+      "Learn through gentle, child-friendly scenes",
+      "Grow together — short sessions built for young children",
+    ],
+    category: "Education",
+    packageName: "com.lazy_bear_club.bao_and_friends",
+    status: "draft",
+    featured: false,
+    icon: "/apps/bao-and-friends/icon.png",
+    screenshots: [
+      "/apps/bao-and-friends/screenshot-hero.jpg",
+      "/apps/bao-and-friends/screenshot-1.png",
+      "/apps/bao-and-friends/screenshot-2.png",
+    ],
+    privacyPolicyUrl: "/privacy/bao-and-friends",
+    accentColor: "#5BB8E8",
+  },
+  {
     id: "bollywood-hollywood",
     name: "Bollywood Hollywood",
     tagline: "Guess the film — Bollywood and Hollywood, one game.",

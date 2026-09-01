@@ -57,6 +57,8 @@ export default function PrivacyPage() {
             "Bollywood Hollywood",
             "Puzzle Match",
             "Tiny Think",
+            "Bao and Family",
+            "Bao and Friends",
             "Dawa Saathi",
           ]}
         />
@@ -76,10 +78,10 @@ export default function PrivacyPage() {
 
       <LegalSection id="children" title="4. Children's privacy">
         <p>
-          This website is not directed at children under 13. Tiny Think and Bao and Family are
-          products for young children. Those apps do not collect personal information from
-          children. We do not knowingly collect personal information from children through
-          this website.
+          This website is not directed at children under 13. Tiny Think, Bao and Family, and
+          Bao and Friends are products for young children. Those apps do not collect personal
+          information from children. We do not knowingly collect personal information from
+          children through this website.
         </p>
       </LegalSection>
 

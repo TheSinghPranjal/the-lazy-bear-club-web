@@ -30,6 +30,7 @@ const apps = [
   { id: "puzzle-match", name: "Puzzle Match", color: "#C47B4A", shots: 3 },
   { id: "tiny-think", name: "Tiny Think", color: "#5C8A7A", shots: 3 },
   { id: "bao-and-family", name: "Bao and Family", color: "#6EC8FF", shots: 0 },
+  { id: "bao-and-friends", name: "Bao and Friends", color: "#5BB8E8", shots: 2 },
   { id: "bollywood-hollywood", name: "Bollywood Hollywood", color: "#D4A574", shots: 3 },
   { id: "dawa-saathi", name: "Dawa Saathi", color: "#4A8B7A", shots: 3 },
   { id: "guess-bollywood", name: "Guess Bollywood", color: "#C47B4A", shots: 2 },
