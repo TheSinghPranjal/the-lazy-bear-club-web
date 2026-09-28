@@ -381,8 +381,11 @@ export const apps: StudioApp[] = [
     featured: false,
     icon: "/apps/guess-bollywood/icon.png",
     screenshots: [
-      "/apps/guess-bollywood/screenshot-1.png",
-      "/apps/guess-bollywood/screenshot-2.png",
+      "/apps/guess-bollywood/screenshot-home.jpg",
+      "/apps/guess-bollywood/screenshot-play.jpg",
+      "/apps/guess-bollywood/screenshot-hint.jpg",
+      "/apps/guess-bollywood/screenshot-win.jpg",
+      "/apps/guess-bollywood/screenshot-game-over.jpg",
     ],
     privacyPolicyUrl: "/privacy/guess-bollywood",
     accentColor: "#C47B4A",

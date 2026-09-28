@@ -42,7 +42,7 @@ const apps = [
   { id: "tetris", name: "Tetris", color: "#8B6CFF", shots: 0 },
   { id: "bollywood-hollywood", name: "Bollywood Hollywood", color: "#D4A574", shots: 3 },
   { id: "dawa-saathi", name: "Dawa Saathi", color: "#4A8B7A", shots: 3 },
-  { id: "guess-bollywood", name: "Guess Bollywood", color: "#C47B4A", shots: 2 },
+  { id: "guess-bollywood", name: "Guess Bollywood", color: "#C47B4A", shots: 0 },
   { id: "robotics-club-mmmut", name: "Robotics Club", color: "#5C6B66", shots: 0 },
 ];
 
