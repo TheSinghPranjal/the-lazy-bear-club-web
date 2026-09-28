@@ -8,6 +8,7 @@ import { featuredLiveApps } from "@/lib/apps";
 import { fadeUp, staggerContainer } from "@/lib/animations";
 import { Button } from "@/components/ui/Button";
 import { StudioGrid } from "@/components/ui/StudioGrid";
+import { LogoMark } from "@/components/ui/Logo";
 
 export function StudioHero() {
   const ref = useRef<HTMLElement>(null);
@@ -35,6 +36,11 @@ export function StudioHero() {
           animate="visible"
           className="max-w-3xl"
         >
+          <motion.div variants={fadeUp} className="mb-6 flex justify-center">
+            <div className="rounded-[1.75rem] bg-white/70 p-3 shadow-lg shadow-brand-green/10 ring-1 ring-brand-green/10">
+              <LogoMark size={88} />
+            </div>
+          </motion.div>
           <motion.p
             variants={fadeUp}
             className="mb-4 text-sm font-semibold uppercase tracking-widest text-brand-accent"

@@ -59,6 +59,7 @@ export default function PrivacyPage() {
             "Tiny Think",
             "Bao and Family",
             "Bao and Friends",
+            "Find the Imposter",
             "Dawa Saathi",
           ]}
         />

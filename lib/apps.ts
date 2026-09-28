@@ -6,6 +6,7 @@ export type AppCategory =
   | "Puzzle"
   | "Education"
   | "Health"
+  | "Party"
   | "Other";
 
 export interface StudioApp {
@@ -202,6 +203,33 @@ export const apps: StudioApp[] = [
     ],
     privacyPolicyUrl: "/privacy/bao-and-friends",
     accentColor: "#5BB8E8",
+  },
+  {
+    id: "imposter",
+    name: "Find the Imposter",
+    tagline: "Everyone knows the word. One of you doesn’t.",
+    description:
+      "Find the Imposter is a pass-the-phone party game for 3–20 players. Everyone gets the same secret word — except the imposter. Reveal your card privately, put the phone down, then give clues and vote out loud to find who is bluffing.",
+    features: [
+      "Pass-the-phone play for 3–20 players on one device",
+      "Hold-to-reveal secret cards that hide when the app is backgrounded",
+      "Easy, Medium, and Difficult word packs with optional imposter hints",
+      "Works offline with a bundled 600-word pack",
+    ],
+    category: "Party",
+    packageName: "com.the_lazy_bear_club.imposter",
+    status: "draft",
+    featured: false,
+    icon: "/apps/imposter/icon.png",
+    screenshots: [
+      "/apps/imposter/screenshot-home.jpg",
+      "/apps/imposter/screenshot-setup.jpg",
+      "/apps/imposter/screenshot-pass-phone.jpg",
+      "/apps/imposter/screenshot-reveal.jpg",
+      "/apps/imposter/screenshot-all-revealed.jpg",
+    ],
+    privacyPolicyUrl: "/privacy/imposter",
+    accentColor: "#6C3CE0",
   },
   {
     id: "bollywood-hollywood",

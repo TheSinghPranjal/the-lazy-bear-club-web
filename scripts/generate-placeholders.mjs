@@ -13,13 +13,18 @@ const publicDir = join(root, "public");
 const LOGO_SVG = `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <rect width="512" height="512" rx="114" fill="#2D4A3E"/>
-  <g transform="translate(64 48) scale(6)">
-    <circle cx="18" cy="17" r="9" fill="#F7F4EF"/>
-    <circle cx="46" cy="17" r="9" fill="#F7F4EF"/>
-    <circle cx="32" cy="36" r="19" fill="#F7F4EF"/>
-    <circle cx="24.5" cy="33.5" r="3.1" fill="#2D4A3E"/>
-    <circle cx="39.5" cy="33.5" r="3.1" fill="#2D4A3E"/>
-    <path d="M25 44.5c3.4 3.2 10.6 3.2 14 0" fill="none" stroke="#2D4A3E" stroke-width="2.4" stroke-linecap="round"/>
+  <g transform="translate(25 32) scale(7)">
+    <circle cx="16" cy="21" r="8.5" fill="#F7F4EF"/>
+    <circle cx="44" cy="21" r="8.5" fill="#F7F4EF"/>
+    <circle cx="16" cy="21" r="4.2" fill="#C47B4A"/>
+    <circle cx="44" cy="21" r="4.2" fill="#C47B4A"/>
+    <ellipse cx="30" cy="39" rx="21" ry="18.5" fill="#F7F4EF"/>
+    <path d="M17.5 35.5q4 3.6 8 0M34.5 35.5q4 3.6 8 0" fill="none" stroke="#1A2E26" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="30" cy="46" rx="9" ry="7" fill="#D4A574"/>
+    <ellipse cx="30" cy="42.6" rx="3.4" ry="2.4" fill="#1A2E26"/>
+    <path d="M27 47.2q3 2.2 6 0" fill="none" stroke="#1A2E26" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M52 6h6.5l-6.5 7.5h6.5" fill="none" stroke="#D4A574" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M55 17.5h3.6l-3.6 4h3.6" fill="none" stroke="#D4A574" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
   </g>
 </svg>
 `;
@@ -31,6 +36,7 @@ const apps = [
   { id: "tiny-think", name: "Tiny Think", color: "#5C8A7A", shots: 3 },
   { id: "bao-and-family", name: "Bao and Family", color: "#6EC8FF", shots: 0 },
   { id: "bao-and-friends", name: "Bao and Friends", color: "#5BB8E8", shots: 2 },
+  { id: "imposter", name: "Find the Imposter", color: "#6C3CE0", shots: 0 },
   { id: "bollywood-hollywood", name: "Bollywood Hollywood", color: "#D4A574", shots: 3 },
   { id: "dawa-saathi", name: "Dawa Saathi", color: "#4A8B7A", shots: 3 },
   { id: "guess-bollywood", name: "Guess Bollywood", color: "#C47B4A", shots: 2 },
