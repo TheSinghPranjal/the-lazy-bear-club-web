@@ -40,6 +40,7 @@ const apps = [
   { id: "undercover", name: "Undercover", color: "#7B4FE8", shots: 0 },
   { id: "poko-and-friends", name: "Poko & Friends", color: "#FF7BAC", shots: 0 },
   { id: "tetris", name: "Tetris", color: "#8B6CFF", shots: 0 },
+  { id: "react-interview", name: "ReactMaster", color: "#4F46E5", shots: 0 },
   { id: "bollywood-hollywood", name: "Bollywood Hollywood", color: "#D4A574", shots: 3 },
   { id: "dawa-saathi", name: "Dawa Saathi", color: "#4A8B7A", shots: 3 },
   { id: "guess-bollywood", name: "Guess Bollywood", color: "#C47B4A", shots: 0 },
