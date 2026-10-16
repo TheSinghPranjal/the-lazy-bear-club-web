@@ -63,6 +63,7 @@ export default function PrivacyPage() {
             "Find the Imposter",
             "Undercover",
             "Tetris",
+            "Unscramble",
             "ReactMaster",
             "Dawa Saathi",
           ]}
