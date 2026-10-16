@@ -245,8 +245,10 @@ export const apps: StudioApp[] = [
     ],
     category: "Party",
     packageName: "com.the_lazy_bear_club.imposter",
-    status: "draft",
-    featured: false,
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.the_lazy_bear_club.imposter",
+    status: "live",
+    featured: true,
     icon: "/apps/imposter/icon.png",
     screenshots: [
       "/apps/imposter/screenshot-home.jpg",
@@ -272,8 +274,10 @@ export const apps: StudioApp[] = [
     ],
     category: "Party",
     packageName: "com.the_lazy_bear_club.undercover",
-    status: "draft",
-    featured: false,
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.the_lazy_bear_club.undercover",
+    status: "live",
+    featured: true,
     icon: "/apps/undercover/icon.png",
     screenshots: [
       "/apps/undercover/screenshot-home.jpg",
