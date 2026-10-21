@@ -66,6 +66,7 @@ export default function PrivacyPage() {
             "Unscramble",
             "ReactMaster",
             "GK Adventure",
+            "Match & Sort: Kids",
             "Dawa Saathi",
           ]}
         />
@@ -86,7 +87,7 @@ export default function PrivacyPage() {
       <LegalSection id="children" title="4. Children's privacy">
         <p>
           This website is not directed at children under 13. Tiny Think, Bao and Family, Bao
-          and Friends, Poko &amp; Friends, and GK Adventure are products for young children. Those apps do not collect personal
+          and Friends, Poko &amp; Friends, GK Adventure, and Match &amp; Sort: Kids are products for young children. Those apps do not collect personal
           information from children. We do not knowingly collect personal information from
           children through this website.
         </p>
