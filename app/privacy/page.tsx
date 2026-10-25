@@ -65,6 +65,7 @@ export default function PrivacyPage() {
             "Tetris",
             "Unscramble",
             "ReactMaster",
+            "AngularMaster",
             "GK Adventure",
             "Match & Sort: Kids",
             "Dog Game: Doodle Pup",
