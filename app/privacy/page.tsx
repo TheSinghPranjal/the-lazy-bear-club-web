@@ -69,6 +69,7 @@ export default function PrivacyPage() {
             "GK Adventure",
             "Match & Sort: Kids",
             "Dog Game: Doodle Pup",
+            "Ludo",
             "Dawa Saathi",
           ]}
         />

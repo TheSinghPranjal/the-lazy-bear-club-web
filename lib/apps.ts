@@ -488,6 +488,33 @@ export const apps: StudioApp[] = [
     accentColor: "#3D4BC7",
   },
   {
+    id: "ludo",
+    name: "Ludo",
+    tagline: "Classic Ludo for 2–4 players, on one phone or over local Wi-Fi.",
+    description:
+      "Ludo brings the classic board game to your phone with glossy marbles and a bright, wooden board. Pass one phone around for a quick game, or host a match on your Wi-Fi or hotspot and let friends join from their own phones. Same rules for everyone, unbiased dice, and no internet required.",
+    features: [
+      "Play on this device: pass the phone each turn, no Wi-Fi needed",
+      "Wi-Fi multiplayer: host a game and friends join from their own phones",
+      "2 to 4 players with custom names and colours",
+      "Classic rules: roll a 6 to leave base, extra turns for sixes, captures, and reaching home",
+      "Unbiased dice and a 30-second turn timer to keep games moving",
+    ],
+    category: "Party",
+    packageName: "com.the_lazy_bear_club.ludo_game",
+    status: "draft",
+    featured: false,
+    icon: "/apps/ludo/icon.png",
+    screenshots: [
+      "/apps/ludo/screenshot-home.jpg",
+      "/apps/ludo/screenshot-four-players.jpg",
+      "/apps/ludo/screenshot-two-players.jpg",
+      "/apps/ludo/screenshot-pass-and-play.jpg",
+    ],
+    privacyPolicyUrl: "/privacy/ludo",
+    accentColor: "#1E4FB8",
+  },
+  {
     id: "bollywood-hollywood",
     name: "Bollywood Hollywood",
     tagline: "Guess the film — Bollywood and Hollywood, one game.",
