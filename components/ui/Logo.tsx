@@ -100,8 +100,8 @@ export function Logo({
       {showName && (
         <span
           className={cn(
-            "text-lg font-semibold leading-none",
-            variant === "light" ? "text-white" : "text-brand-text",
+            "text-xl font-bold leading-none tracking-tight",
+            variant === "light" ? "text-white" : "text-brand-green-dark",
           )}
         >
           {STUDIO_NAME}

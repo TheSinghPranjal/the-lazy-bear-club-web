@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import { SITE, STUDIO_NAME, TAGLINE } from "@/lib/constants";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -7,8 +7,8 @@ import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import { JsonLd } from "@/components/layout/JsonLd";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const jakarta = Plus_Jakarta_Sans({
+  variable: "--font-jakarta",
   subsets: ["latin"],
   display: "swap",
 });
@@ -55,7 +55,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full scroll-smooth`}>
+    <html lang="en" className={`${jakarta.variable} h-full scroll-smooth`}>
       <head>
         <JsonLd />
       </head>

@@ -46,7 +46,7 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-brand-muted transition-colors hover:text-brand-green"
+              className="text-[15px] font-medium text-brand-green-dark transition-colors hover:text-brand-accent"
             >
               {item.label}
             </Link>
@@ -54,7 +54,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Button href={LINKS.contactInquiry} variant="ghost" size="sm" className="hidden sm:inline-flex">
+          <Button href={LINKS.contactInquiry} size="sm" className="hidden px-6 py-2.5 text-[15px] ring-1 ring-white/60 sm:inline-flex">
             Contact
           </Button>
           <button
