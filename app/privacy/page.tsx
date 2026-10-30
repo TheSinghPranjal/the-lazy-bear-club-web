@@ -70,6 +70,7 @@ export default function PrivacyPage() {
             "Match & Sort: Kids",
             "Dog Game: Doodle Pup",
             "Ludo",
+            "Imposter Game",
             "Dawa Saathi",
           ]}
         />
