@@ -8,6 +8,7 @@ import { AppScreenshotCarousel } from "@/components/ui/AppScreenshotCarousel";
 
 type Props = { params: Promise<{ slug: string }> };
 
+
 export function generateStaticParams() {
   return apps.filter((app) => app.status !== "archived").map((app) => ({ slug: app.id }));
 }
